@@ -828,7 +828,9 @@ li {
   flex: 0 1 50%;
   position: relative;
   text-align: center;
-  background-image: url("../img/favorite/background.jpg") center no-repeat;
+  background-image: url("../img/favorite/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: 100%;
 }
 .favorite__images .images-favorite {
